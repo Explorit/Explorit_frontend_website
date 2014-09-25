@@ -1,0 +1,161 @@
+body {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.container {
+    padding-top: 15px;
+}
+
+#content .container .lead {
+    margin-bottom: 20px;
+    font-weight: 100;
+    line-height: 1.4;
+
+}
+.container .bs-docs-masthead .lead {
+    margin: 0px auto 0.25em;
+    color: #FFF;
+}
+
+/*.bs-docs-home .bs-docs-masthead, .bs-docs-header {
+    position: relative;
+    padding: 30px 15px;
+    color: #AA4771;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    background-color: #278051;
+    background-image: linear-gradient(to bottom, #294DE9 0px, rgba(0, 124, 194, .1) 100%);
+    background-repeat: repeat-x;
+}
+.bs-docs-home .bs-docs-masthead, .bs-docs-header {
+    position: relative;
+    padding: 30px 15px;
+    color: #AA4771;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    background-color: #278051;
+    background-image: linear-gradient(to bottom, #294DE9 0px, rgba(15, 191, 104, 1) 100%);
+    background-repeat: repeat-x;
+}*/
+.bs-docs-home .bs-docs-masthead, .bs-docs-header {
+    position: relative;
+    padding: 30px 15px;
+    color: #AA4771;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    background-color: #1769A8;
+    background-image: linear-gradient(to bottom, #3C804C 0px, rgba(0, 124, 194, .1) 100%);
+    background-repeat: repeat-x;
+}
+
+.curved {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #1769A8 #AA4771;
+    padding: 15px;
+}
+
+.curved_boxes {
+    min-height: 342px;
+}
+
+/* ******************************************
+			Media Queries for screen less than  (400px)
+****************************************** */
+@media screen and (max-width: 500px) {
+    .container .custom_kids_pic {
+        width: 100%;
+    }
+    #content, .bs-docs-masthead {
+        padding: 0px 0px;
+    }
+    .bs-docs-masthead .bs-docs-booticon {
+        margin: 0px auto 10px;
+    }
+    .bs-docs-booticon-lg {
+        width: 144px;
+        height: auto;
+        font-size: 108px;
+        line-height: 140px;
+    }
+    .container .bs-docs-booticon, .bs-docs-booticon-lg {
+        
+        width: 144px;
+        height: auto;
+        font-size: 108px;
+        line-height: 140px;
+    }
+}
+
+/* ******************************************
+			Media Queries for screen  (401px) to (768px)
+****************************************** */
+@media screen and (min-width : 401px) 
+and (max-width : 768px) {
+    .container .custom_kids_pic {
+        width: 80%;
+	margin-left: auto;
+        margin-right: auto;
+    }
+    #content, .bs-docs-masthead {
+        padding: 0px 0px;
+    }
+    .bs-docs-masthead .bs-docs-booticon {
+        margin: 0px auto 10px;
+    }
+    .container .bs-docs-booticon, .bs-docs-booticon-lg {
+        width: 144px;
+        height: auto;
+        font-size: 108px;
+        line-height: 140px;
+    }
+}
+
+/* ******************************************
+			Media Queries for screen  (769px) to (1024px)
+****************************************** */
+
+@media screen and (min-width: 769px)
+and (max-width : 1024px) {
+    .container .custom_kids_pic {
+        width: 60%;
+	margin-left: auto;
+        margin-right: auto;
+    }
+    #content, .bs-docs-masthead {
+        padding: 0px 0px;
+    }
+    .bs-docs-masthead .bs-docs-booticon {
+    margin: 0px auto 10px;
+    }
+    .container .bs-docs-booticon, .bs-docs-booticon-lg {
+        width: 144px;
+        height: auto;
+        font-size: 108px;
+        line-height: 140px;
+    }
+}
+/* ******************************************
+			Media Queries for screen more than (1025px)
+****************************************** */
+@media screen and (min-width: 1025px) {
+    .container .custom_kids_pic {
+        width: 40%;
+	margin-left: auto;
+        margin-right: auto;
+    }
+    #content, .bs-docs-masthead {
+        padding: 0px 0px;
+    }
+    .bs-docs-masthead .bs-docs-booticon {
+        margin: 0px auto 10px;
+    }
+    .container .bs-docs-booticon, .bs-docs-booticon-lg {
+        width: 144px;
+        height: auto;
+        font-size: 108px;
+        line-height: 140px;
+    }
+}
