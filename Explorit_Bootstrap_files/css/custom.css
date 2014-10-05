@@ -16,6 +16,14 @@ body {
     margin: 0px auto 0.25em;
     color: #FFF;
 }
+.container .bs-docs-booticon, .bs-docs-booticon-lg {
+    width: 80px;
+    height: auto;
+    font-size: 108px;
+    line-height: 80px;
+    /*line-height: 140px;*/
+    margin-top: -30px;
+}
 
 /*.bs-docs-home .bs-docs-masthead, .bs-docs-header {
     position: relative;
