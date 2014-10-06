@@ -55,7 +55,7 @@
     <a class="sr-only sr-only-focusable" href="http://getbootstrap.com/#content">Skip to main content</a>
 
     <!-- Docs master nav -->
-    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+    <header class="navbar navbar-static-top bs-docs-nav box_w_border" id="top" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -66,7 +66,7 @@
       </button>
       <a href="./Explorit_Bootstrap_files/Explorit_Bootstrap.html" class="navbar-brand"><span class="bs-docs-booticon bs-docs-booticon-lg <!--bs-docs-booticon-outline-->"><img src="Explorit_Bootstrap_files/images/explorit_swirl_blu-icon.png" alt="Explorit Logo" class="img-responsive"></span><!--Home--></a>
     </div>
-    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+    <nav class="collapse navbar-collapse bs-navbar-collapse font_futura" role="navigation">
       <ul class="nav navbar-nav">
         <li>
           <a href="http://getbootstrap.com/getting-started">About</a>
@@ -86,8 +86,7 @@
        
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <!--<li><a href="http://expo.getbootstrap.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Expo&#39;);">News</a></li>
-        <li><a href="http://blog.getbootstrap.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Blog&#39;);">Community Science Project</a></li>-->
+       
         <form class="navbar-form nav navbar-nav navbar-right " role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
@@ -103,51 +102,103 @@
     <!-- Page content of course! -->
 <main class="bs-docs-masthead" id="content" role="main">
   <div class="container">
-    <!--<span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline"><img src="Explorit_Bootstrap_files/images/explorit_logo_00.png" alt="Explorit Logo" class="img-responsive"></span>-->
-    <!--<p class="lead curved bs-docs-booticon-outline" style="letter-spacing: 2px; font-size: 30px">Explorit Science Center</p>-->
-    <!--<p class="lead">
-      <a href="http://getbootstrap.com/getting-started#download" class="btn btn-outline-inverse btn-lg" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Jumbotron actions&#39;, &#39;Download&#39;, &#39;Download 3.2.0&#39;);">download bootstrap</a>
-    </p>
-    <p class="version">Currently v3.2.0</p>-->
-    <!--<div id="carbonads-container"><div class="carbonad"><div id="azcarbon"><span><span class="carbonad-image"><a href="http://srv.carbonads.net/ads/click/x/GTND423JC6BD6K7LCAY4YKQWC6YIVK7JCVYIKZ3JCEYI423LFTBD627KC6BD4KQWCV7I6K3EHJNCLSIZZRLCP7I35MNFV?segment=placement:getbootstrapcom&encredirect=https%3A%2F%2Fad.doubleclick.net%2Fjump%2FN7384.734586.CARBONADS.NET%2FB8174460.109661210%3Bsz%3D130x100%3Bord%3D1411424858%3F" target="_blank"><img width="130" height="100" border="0" src="./Explorit_Bootstrap_files/B8174460.109661210;sz=130x100" class="carbonad-image carbonad-img"></a></span><span class="carbonad-text"><a href="http://srv.carbonads.net/ads/click/x/GTND423JC6BD6K7LCAY4YKQWC6YIVK7JCVYIKZ3JCEYI423LFTBD627KC6BD4KQWCV7I6K3EHJNCLSIZZRLCP7I35MNFV?segment=placement:getbootstrapcom&encredirect=https%3A%2F%2Fad.doubleclick.net%2Fjump%2FN7384.734586.CARBONADS.NET%2FB8174460.109661210%3Bsz%3D130x100%3Bord%3D1411424858%3F">Braintree: 2.9% and 30¢ per transaction. No minimums, no monthly fees.</a></span><span class="carbonad-tag">ads via <a href="http://carbonads.com/">Carbon</a></span></span></div><script>var z = document.createElement("script"); z.async = true; z.src = "http://engine.carbonads.com/z/32341/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>-->
       
   <div class="row">
-    <div class="col-sm-6">
-      <img src="./Explorit_Bootstrap_files/images/explorit_kids_0.png" alt="Explorit Kids" class="custom_kids_pic">
+    <div class="col-sm-7 pics_corner">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./Explorit_Bootstrap_files/images/explorit_kids_0.png" alt="...">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            <div class="item">
+              <img src="./Explorit_Bootstrap_files/images/explorit_kids_0.png" alt="...">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            ...
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+       </div>
     </div>
-    <div class="col-sm-6">
-        <p class="lead"><span>Mission Statement:</span> To ignite and foster curiosity about science and nature through inquiry and discovery</p>
-        <p class="lead"><span>Vision Statement:</span> Stimulating scientific curiosity and excitement in a million minds.</p>
+    <div class="col-sm-5 text_corner">
+        <div class="gray_box">
+        <p class="lead"><span class="font_futura">Mission Statement:<br></span> To ignite and foster curiosity about science and nature through inquiry and discovery</p>
+        </div>
+        <div class="gray_box">
+        <p class="lead"><span class="font_futura">Vision Statement:<br></span> Stimulating scientific curiosity and excitement in a million minds.</p>
+        </div>
     </div>
   </div>
 </main>
 
 <div class="bs-docs-featurette">
   <div class="container">
-    <h2 class="bs-docs-featurette-title">Explorit is a hands-on science museum in Davis, California.</h2>
-    <p class="lead">Explorit engages children and adults in hands-on science discovery.  We have a family-friendly museum and nature site in Davis. What’s more, we take science programs on the road to schools and community sites in 16 counties. The center offers everyone the chance to “Think it… Try it… Explorit.”</p>
+    <!--<h2 class="bs-docs-featurette-title">Explorit is a hands-on science museum in Davis, California.</h2>
+    <p class="lead">Explorit engages children and adults in hands-on science discovery.  We have a family-friendly museum and nature site in Davis. What’s more, we take science programs on the road to schools and community sites in 16 counties. The center offers everyone the chance to “Think it… Try it… Explorit.”</p>-->
 
-    <hr class="half-rule">
+    <!--<hr class="half-rule">-->
 
     <div class="row">
       <div class="col-sm-4">
         <figure class="curved curved_boxes">
+        <img src="Explorit_Bootstrap_files/images/teacher_explorit_2.png" alt="For Teachers" class="img-responsive">
+        <h3 class="font_futura">Book A Program</h3>
+        <p>As a teacher prepair yourself for the Explorit Experience. Plan your school or group visit to Explorit.</p>
+        </figure>
+      </div>
+      <div class="col-sm-4">
+        <figure class="curved curved_boxes">
+        <img src="./Explorit_Bootstrap_files/images/science_explorit_2.png" alt="Responsive across devices" class="img-responsive">
+        <h3 class="font_futura">Whats Happening Now</h3>
+        <p>Check out these online science quizzes, games, challenges stumpers and more.</p>
+        </figure>
+      </div>
+      <div class="col-sm-4">
+        <figure class="curved curved_boxes">
         <img src="./Explorit_Bootstrap_files/images/news_explorit_2.png" alt="Sass and Less support" class="img-responsive">
-        <h3>News</h3>
+        <h3 class="font_futura">News and Resources</h3>
+        <p>Information about events, job openings, volunteer and giving opportunities, and other happenings at Explorit.</p>
+        </figure>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <figure class="curved curved_boxes">
+        <img src="./Explorit_Bootstrap_files/images/news_explorit_2.png" alt="Sass and Less support" class="img-responsive">
+        <h3 class="font_futura">Donate Button</h3>
         <p>Information about events, job openings, volunteer and giving opportunities, and other happenings at Explorit.</p>
         </figure>
       </div>
       <div class="col-sm-4">
         <figure class="curved curved_boxes">
         <img src="./Explorit_Bootstrap_files/images/science_explorit_2.png" alt="Responsive across devices" class="img-responsive">
-        <h3>Science</h3>
+        <h3 class="font_futura">Newsletter Sign-Up</h3>
         <p>Check out these online science quizzes, games, challenges stumpers and more.</p>
         </figure>
       </div>
       <div class="col-sm-4">
         <figure class="curved curved_boxes">
         <img src="Explorit_Bootstrap_files/images/teacher_explorit_2.png" alt="For Teachers" class="img-responsive">
-        <h3>Teacher Resources</h3>
+        <h3 class="font_futura">Something Else</h3>
         <p>As a teacher prepair yourself for the Explorit Experience. Plan your school or group visit to Explorit.</p>
         </figure>
       </div>
@@ -177,53 +228,8 @@
         </div>
         </div><!--container-->
     </div>
-    <hr class="half-rule">
+    <!--<hr class="half-rule">-->
 
-    <p class="lead">Bootstrap is open source. It's hosted, developed, and maintained on GitHub.</p>
-    <a href="https://github.com/twbs/bootstrap" class="btn btn-outline btn-lg">View the GitHub project</a>
-  </div>
-</div>
-
-<div class="bs-docs-featurette">
-  <div class="container">
-    <h2 class="bs-docs-featurette-title">Built with Bootstrap.</h2>
-    <p class="lead">Millions of amazing sites across the web are being built with Bootstrap. Get started on your own with our growing <a href="http://getbootstrap.com/getting-started/#examples">collection of examples</a> or by exploring some of our favorites.</p>
-
-    <hr class="half-rule">
-
-    <div class="row bs-docs-featured-sites">
-
-      <div class="col-sm-3">
-        <a href="http://expo.getbootstrap.com/2014/02/24/redantler/" target="_blank" title="Red Antler">
-          <img src="./Explorit_Bootstrap_files/images/redantler.jpg" alt="Red Antler" class="img-responsive">
-        </a>
-      </div>
-
-      <div class="col-sm-3">
-        <a href="http://expo.getbootstrap.com/2014/03/13/riot-design/" target="_blank" title="Riot Design">
-          <img src="./Explorit_Bootstrap_files/images/riot.jpg" alt="Riot Design" class="img-responsive">
-        </a>
-      </div>
-
-      <div class="col-sm-3">
-        <a href="http://expo.getbootstrap.com/2014/02/12/newsweek/" target="_blank" title="Newsweek">
-          <img src="./Explorit_Bootstrap_files/images/newsweek.jpg" alt="Newsweek" class="img-responsive">
-        </a>
-      </div>
-
-      <div class="col-sm-3">
-        <a href="http://expo.getbootstrap.com/2014/02/26/robinhood/" target="_blank" title="Robinhood">
-          <img src="./Explorit_Bootstrap_files/images/robinhood.jpg" alt="Robinhood" class="img-responsive">
-        </a>
-      </div>
-
-    </div>
-
-    <hr class="half-rule">
-
-    <p class="lead">We showcase dozens of inspiring projects built with Bootstrap on the Bootstrap Expo.</p>
-    <a href="http://expo.getbootstrap.com/" class="btn btn-outline btn-lg">Explore the Expo</a>
-  </div>
 </div>
 
 
@@ -249,27 +255,20 @@
 </div>
 
 
-    <p>Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-    <p>Maintained by the <a href="https://github.com/twbs?tab=members">core team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</p>
-    <p>Code licensed under <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE" target="_blank">MIT</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+    
     <ul class="bs-docs-footer-links muted">
       <!--<li>Currently v3.2.0</li>-->
-      <li>·</li>
-      <li><a href="https://github.com/twbs/bootstrap">GitHub</a></li>
-      <li>·</li>
-      <li><a href="http://getbootstrap.com/getting-started/#examples">Examples</a></li>
-      <li>·</li>
-      <li><a href="http://getbootstrap.com/2.3.2/">v2.3.2 docs</a></li>
-      <li>·</li>
-      <li><a href="http://getbootstrap.com/about/">About</a></li>
-      <li>·</li>
-      <li><a href="http://expo.getbootstrap.com/">Expo</a></li>
-      <li>·</li>
-      <li><a href="http://blog.getbootstrap.com/">Blog</a></li>
-      <li>·</li>
-      <li><a href="https://github.com/twbs/bootstrap/issues?state=open">Issues</a></li>
-      <li>·</li>
-      <li><a href="https://github.com/twbs/bootstrap/releases">Releases</a></li>
+      
+      <li><a href="explorit@explorit.org">Contact</a></li>
+      <li>&nbsp;&nbsp;</li>
+      <li><a href="http://www.explorit.org/">Membership</a></li>
+      <li>&nbsp;&nbsp;</li>
+      <li><a href="http://www.explorit.org/">Donate</a></li>
+      <li>&nbsp;&nbsp;</li>
+      <li><a href="http://www.explorit.org/">About</a></li>
+      <li>&nbsp;&nbsp;</li>
+      <li><a href="http://www.explorit.org/">Explorit Science Center Davis, California</a></li>
+     
     </ul>
   </div>
 </footer>
