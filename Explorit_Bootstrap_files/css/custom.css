@@ -52,12 +52,12 @@
     border: 1px solid #0F0E0E; /*#1769A8*/
     margin-top: 8%;
     margin-left: 8%;
-    margin-right: 0%;
+    margin-right: 3%;
+    background-color: #fff;
 }
-
 .curved_boxes {
     min-height: 342px;
-        padding-top: 0px;
+    padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 15px;
     padding-right: 15px;
@@ -134,7 +134,7 @@ body .bs-docs-featurette .container .row {
 /* ******************************************
 			Media Queries for screen less than  (500px)
 ****************************************** */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .container {
         padding-top: 15px;
         width:auto;
@@ -166,8 +166,8 @@ body .bs-docs-featurette .container .row {
 /* ******************************************
 			Media Queries for screen  (401px) to (768px)
 ****************************************** */
-@media screen and (min-width : 401px) 
-and (max-width : 768px) {
+@media screen and (min-width : 769px) 
+and (max-width : 970px) {
     .container {
         padding-top: 15px;
         width:auto;
@@ -195,8 +195,8 @@ and (max-width : 768px) {
 			Media Queries for screen  (769px) to (1024px)
 ****************************************** */
 
-@media screen and (min-width: 769px)
-and (max-width : 1024px) {
+@media screen and (min-width: 971px)
+and (max-width : 1170px) {
     .container {
         padding-top: 15px;
         width:auto;
@@ -222,7 +222,7 @@ and (max-width : 1024px) {
 /* ******************************************
 			Media Queries for screen more than (1025px)
 ****************************************** */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1170px) {
     .container {
         padding-top: 15px;
         width:auto;
