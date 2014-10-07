@@ -45,13 +45,22 @@
     border-radius: 25px;
     border-style: solid;
     /*border-color: #1769A8 #1769A8;*/ /* #AA4771;*/
-    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
     border: 1px solid #0F0E0E; /*#1769A8*/
-    margin: 5%;
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-right: 0%;
 }
 
 .curved_boxes {
     min-height: 342px;
+        padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .navbar {
@@ -108,12 +117,18 @@
     border-bottom: 1px solid #0F0E0E;
 }
 .bs-docs-home .bs-docs-featurette .bs-docs-footer {
-padding-top: 40px;
-padding-bottom: 40px;
-margin-top: 100px;
-color: #777;
-text-align: center;
-border-top: 1px solid #0F0E0E;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    color: #777;
+    text-align: center;
+    border-top: 1px solid #0F0E0E;
+}
+body .bs-docs-featurette .container .row {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 /* ******************************************
