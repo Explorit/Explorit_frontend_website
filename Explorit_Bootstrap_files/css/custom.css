@@ -3,6 +3,7 @@
 .font_futura {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
+/*
 .container nav .navbar-nav {
     float: left;
     margin-bottom: 0px;
@@ -13,6 +14,7 @@
     margin-bottom: 0px;
     margin-top: 20px;
 }
+*/
 #content .container .lead {
     margin-bottom: 20px;
     font-weight: 200;
@@ -100,6 +102,11 @@
     text-shadow: 0 1px 2px rgba(0,0,0,0.6);
     border-radius: 20px; 
 }
+/*
+#carousel-example-generic {
+    max-height: 500px;
+}
+*/
 .pics_corner {
     padding-top: 50px;
     padding-left: 50px;
@@ -130,6 +137,7 @@ body .bs-docs-featurette .container .row {
     padding-bottom: 0px;
     padding-top: 0px;
 }
+
 
 /* ******************************************
 			Media Queries for screen less than  (500px)
@@ -168,6 +176,16 @@ body .bs-docs-featurette .container .row {
 ****************************************** */
 @media screen and (min-width : 769px) 
 and (max-width : 970px) {
+    .container nav .navbar-nav {
+        float: left;
+        margin-bottom: 0px;
+        margin-top: 30px;
+        margin-left: -60px;
+    }
+    .container nav .navbar-right {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
     .container {
         padding-top: 15px;
         width:auto;
@@ -197,6 +215,16 @@ and (max-width : 970px) {
 
 @media screen and (min-width: 971px)
 and (max-width : 1170px) {
+    .container nav .navbar-nav {
+        float: left;
+        margin-bottom: 0px;
+        margin-top: 30px;
+        margin-left: -60px;
+    }
+    .container nav .navbar-right {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
     .container {
         padding-top: 15px;
         width:auto;
@@ -223,6 +251,16 @@ and (max-width : 1170px) {
 			Media Queries for screen more than (1025px)
 ****************************************** */
 @media screen and (min-width: 1170px) {
+    .container nav .navbar-nav {
+        float: left;
+        margin-bottom: 0px;
+        margin-top: 30px;
+        margin-left: -60px;
+    }
+    .container nav .navbar-right {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
     .container {
         padding-top: 15px;
         width:auto;
