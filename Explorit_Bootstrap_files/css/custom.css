@@ -103,10 +103,36 @@
     border-radius: 20px; 
 }
 /*
+.carousel-control {
+    top: 400px;
+}
+.carousel-control img{
+    top: 400px;
+}
+
+#carousel-example-generic {
+    width: auto;
+    height: 225px;
+    max-height: 225px;
+}
+#carousel-example-generic img {
+    width: auto;
+    height: 225px;
+    max-height: 225px;
+}*/
+/*
 #carousel-example-generic {
     max-height: 500px;
 }
 */
+#carousel-example-generic {
+    max-height: 400px;
+}
+#carousel-example-generic img {
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .pics_corner {
     padding-top: 50px;
     padding-left: 50px;
