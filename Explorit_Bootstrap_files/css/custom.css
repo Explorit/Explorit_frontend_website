@@ -163,6 +163,11 @@ body .bs-docs-featurette .container .row {
     padding-bottom: 0px;
     padding-top: 0px;
 }
+body footer .bs-docs-footer-links li {
+    margin-right: 30px;
+    font-size: 1.5em;
+    
+}
 
 
 /* ******************************************
