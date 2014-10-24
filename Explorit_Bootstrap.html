@@ -38,17 +38,17 @@
 
 
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+/*  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-146052-10', 'getbootstrap.com');
-  ga('send', 'pageview');
+  ga('send', 'pageview');*/
 </script>
 
   <style id="holderjs-style" type="text/css"></style><script id="_carbonads_projs" type="text/javascript" src="./Explorit_Bootstrap_files/C6AILKT.json"></script>
     <style>
-    .carbonad{display:block;background:#fdfdfd;background-image:-moz-linear-gradient(top,#f8f8f8,#fdfdfd);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f8f8f8),color-stop(1,#fdfdfd));border:1px solid #d5d5d5;font-family:Lucida Grande,Arial,Helvetica,sans-serif;font-size:11px;height:118px;line-height:15px;overflow:hidden;width:300px}.carbonad-img{border:none;display:inline;float:left;height:100px;margin:9px;width:130px}.carbonad-text{display:inline;float:left;width:142px;padding-top:13px}.carbonad-text a{color:#000;text-decoration:none;text-transform:none;}.carbonad-tag{float:left;margin-top:9px;text-align:center;width:142px;color:#999}.carbonad-tag a{color:#999;text-decoration:none}
+/*    .carbonad{display:block;background:#fdfdfd;background-image:-moz-linear-gradient(top,#f8f8f8,#fdfdfd);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f8f8f8),color-stop(1,#fdfdfd));border:1px solid #d5d5d5;font-family:Lucida Grande,Arial,Helvetica,sans-serif;font-size:11px;height:118px;line-height:15px;overflow:hidden;width:300px}.carbonad-img{border:none;display:inline;float:left;height:100px;margin:9px;width:130px}.carbonad-text{display:inline;float:left;width:142px;padding-top:13px}.carbonad-text a{color:#000;text-decoration:none;text-transform:none;}.carbonad-tag{float:left;margin-top:9px;text-align:center;width:142px;color:#999}.carbonad-tag a{color:#999;text-decoration:none}*/
     </style>
     </head>
   <body class="bs-docs-home" data-twttr-rendered="true">
@@ -65,6 +65,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
 -->
+        <!----- Menu icon (navigation) ----->
         <img src="./Explorit_Bootstrap_files/images/explorit_menu-icon.1.png" alt="menu button" class="img-responsive" style="max-width: 100px; margin-right: -20px; margin-top: -20px; margin-bottom: -20px;">
       </button>
       <a href="./Explorit_Bootstrap_files/Explorit_Bootstrap.html" class="navbar-brand"><span class="bs-docs-booticon bs-docs-booticon-lg <!--bs-docs-booticon-outline-->"><img src="Explorit_Bootstrap_files/images/explorit_swirl_blu-icon.png" alt="Explorit Logo" class="img-responsive"></span><!--Home--></a>
@@ -102,12 +103,14 @@
 </header>
 
 
-    <!-- Page content of course! -->
+    <!-- Page content -->
 <main class="bs-docs-masthead" id="content" role="main">
   <div class="container">
       
   <div class="row">
     <div class="col-sm-7 pics_corner">
+        
+        <!------------- carousel ----------------->
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -141,7 +144,10 @@
             <span class="glyphicon gc-right"><img src="Explorit_Bootstrap_files/images/arrow_r_expl.svg"></span>
           </a>
        </div>
+       <!-------- end carousel --------->
     </div>
+      
+    <!-------- mission and vision statements --------->
     <div class="col-sm-5 text_corner">
         <div class="gray_box">
         <p class="lead"><span class="font_futura">Mission Statement:<br></span> To ignite and foster curiosity about science and nature through inquiry and discovery</p>
@@ -150,17 +156,17 @@
         <p class="lead"><span class="font_futura">Vision Statement:<br></span> Stimulating scientific curiosity and excitement in a million minds.</p>
         </div>
     </div>
+    <!-------- end mission and vision statements --------->
   </div>
 </main>
 
 <div class="bs-docs-featurette">
   <div class="container">
-    <!--<h2 class="bs-docs-featurette-title">Explorit is a hands-on science museum in Davis, California.</h2>
-    <p class="lead">Explorit engages children and adults in hands-on science discovery.  We have a family-friendly museum and nature site in Davis. What’s more, we take science programs on the road to schools and community sites in 16 counties. The center offers everyone the chance to “Think it… Try it… Explorit.”</p>-->
+    
 
     <!--<hr class="half-rule">-->
 
-    <div class="row">
+    <div class="row adjustrow1">  <!---------- 1st row boxes ----------->
       <div class="col-sm-4">
         <figure class="curved curved_boxes">
             <div class="bs-glyphicons" style="margin: 70px;"><div class="bs-glyphicons-list"><div><span class="glyphicon glyphicon-road" ></span></div></div></div>
@@ -183,8 +189,10 @@
         <p>Information about events, job openings, volunteer and giving opportunities, and other happenings at Explorit.</p>
         </figure>
       </div>
-    </div>
-    <div class="row" style="background-color: #eaeff7; padding-bottom: 100px">
+    </div><!---------- end 1st row boxes ----------->
+    <!---------- 2nd row boxes ----------->
+    <div class="row adjustrow2">
+     <div class="row">
       <div class="col-sm-4">
         <figure class="curved curved_boxes">
             <div class="bs-glyphicons" style="margin: 70px;"><div class="bs-glyphicons-list"><div><span class="glyphicon glyphicon-usd" ></span></div></div></div>
@@ -211,7 +219,8 @@
         <p>As a teacher prepair yourself for the Explorit Experience. Plan your school or group visit to Explorit.</p>
         </figure>
       </div>
-    </div>
+     </div><!--row-->
+    </div><!---------- end 2nd row boxes ----------->
     <div class="row">
         <br></br>
         <h2 class="bs-docs-featurette-title">Thank you to our recent business donors </h2>
@@ -292,18 +301,18 @@
 
 
 <script>
-  window.twttr = (function (d,s,id) {
+/*  window.twttr = (function (d,s,id) {
     var t, js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return; js=d.createElement(s); js.id=id; js.async=1;
     js.src="https://platform.twitter.com/js/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
     return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
-  }(document, "script", "twitter-wjs"));
+  }(document, "script", "twitter-wjs"));*/
 </script>
 
 <!-- Analytics
 ================================================== -->
 <script>
-  var _gauges = _gauges || [];
+/*  var _gauges = _gauges || [];
   (function() {
     var t   = document.createElement('script');
     t.async = true;
@@ -312,9 +321,9 @@
     t.src = '//secure.gaug.es/js/track.js';
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(t, s);
-  })();
+  })();*/
 </script>
 
   
 
-<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1411424858049">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1411424858049" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div></body></html>
+<!--<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1411424858049">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1411424858049" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div>--></body></html>

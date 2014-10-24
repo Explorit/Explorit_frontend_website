@@ -156,12 +156,22 @@
     border-top: 1px solid #0F0E0E;
 }
 
-body .bs-docs-featurette .container .row {
+/*body .bs-docs-featurette .container .adjustrow1 {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
     padding-top: 0px;
 }
+body .bs-docs-featurette .container .adjustrow2 {
+    
+    padding-top: 20px;
+    
+}
+body .bs-docs-featurette .container .adjustrow2 .row {
+    background-color: #eaeff7; 
+    padding-top: 0px;
+    padding-bottom: 40px;
+}*/
 body footer .bs-docs-footer-links li {
     margin-right: 30px;
     font-size: 1.5em;
@@ -208,6 +218,22 @@ body footer .bs-docs-footer-links li {
         font-size: 108px;
         line-height: 140px;
     }
+    body .bs-docs-featurette .container .adjustrow1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    body .bs-docs-featurette .container .adjustrow2 {
+
+        padding-top: 40px;
+
+    }
+    body .bs-docs-featurette .container .adjustrow2 .row {
+        background-color: #eaeff7; 
+        padding-top: -50px;
+        padding-bottom: 40px;
+    }
 }
 /* ******************************************
 			Media Queries for screen  (768px) to (970px)
@@ -252,6 +278,22 @@ and (max-width : 970px) {
         height: auto;
         font-size: 108px;
         line-height: 140px;
+    }
+    body .bs-docs-featurette .container .adjustrow1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    body .bs-docs-featurette .container .adjustrow2 {
+
+        padding-top: 20px;
+
+    }
+    body .bs-docs-featurette .container .adjustrow2 .row {
+        background-color: #eaeff7; 
+        padding-top: 0px;
+        padding-bottom: 40px;
     }
 }
 
@@ -300,6 +342,22 @@ and (max-width : 1170px) {
         font-size: 108px;
         line-height: 140px;
     }
+    body .bs-docs-featurette .container .adjustrow1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    body .bs-docs-featurette .container .adjustrow2 {
+
+        padding-top: 20px;
+
+    }
+    body .bs-docs-featurette .container .adjustrow2 .row {
+        background-color: #eaeff7; 
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
 }
 /* ******************************************
 			Media Queries for screen more than (1170px)
@@ -342,5 +400,21 @@ and (max-width : 1170px) {
         height: auto;
         font-size: 108px;
         line-height: 140px;
+    }
+    body .bs-docs-featurette .container .adjustrow1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    body .bs-docs-featurette .container .adjustrow2 {
+
+        padding-top: 30px;
+
+    }
+    body .bs-docs-featurette .container .adjustrow2 .row {
+        background-color: #eaeff7; 
+        padding-top: 0px;
+        padding-bottom: 40px;
     }
 }
