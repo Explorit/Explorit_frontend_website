@@ -15,14 +15,14 @@
     margin-top: 20px;
 }
 */
-#content .container .lead {
+/*#content .container .lead {
     margin-bottom: 20px;
     font-weight: 200;
     line-height: 1.4;
 }
 .container .bs-docs-masthead .lead {
     margin: 0px auto 0.25em;
-}
+}*/
 .container .bs-docs-booticon, .bs-docs-booticon-lg {
     width: 80px;
     height: auto;
@@ -39,30 +39,6 @@
     text-align: center;
     background-image: linear-gradient(to bottom,#ffffff 0,#ffffff 100%);
     border-top: 1px solid #0F0E0E;
-}
-
-.curved {
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    border-style: solid;
-    /*border-color: #1769A8 #1769A8;*/ /* #AA4771;*/
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: 1px solid #0F0E0E; /*#1769A8*/
-    margin-top: 8%;
-    margin-left: 8%;
-    margin-right: 3%;
-    background-color: #fff;
-}
-.curved_boxes {
-    min-height: 342px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .navbar {
@@ -103,29 +79,6 @@
     border-radius: 20px; 
 }
 
-/*
-.carousel-control {
-    top: 400px;
-}
-.carousel-control img{
-    top: 400px;
-}
-
-#carousel-example-generic {
-    width: auto;
-    height: 225px;
-    max-height: 225px;
-}
-#carousel-example-generic img {
-    width: auto;
-    height: 225px;
-    max-height: 225px;
-}*/
-/*
-#carousel-example-generic {
-    max-height: 500px;
-}
-*/
 #carousel-example-generic {
     max-height: 400px;
 }
@@ -156,25 +109,10 @@
     border-top: 1px solid #0F0E0E;
 }
 
-/*body .bs-docs-featurette .container .adjustrow1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-}
-body .bs-docs-featurette .container .adjustrow2 {
-    
-    padding-top: 20px;
-    
-}
-body .bs-docs-featurette .container .adjustrow2 .row {
-    background-color: #eaeff7; 
-    padding-top: 0px;
-    padding-bottom: 40px;
-}*/
 body footer .bs-docs-footer-links li {
     margin-right: 30px;
-    font-size: 1.5em;
+    font-size: 1.2 em;
+    max-width: 9em;
     
 }
 
@@ -207,6 +145,14 @@ body footer .bs-docs-footer-links li {
         font-size: 108px;
         line-height: 140px;
     }
+    #content .container .lead {
+        margin-bottom: 20px;
+        font-weight: 200;
+        line-height: 1.4;
+    }
+    .container .bs-docs-masthead .lead {
+        margin: 0em 0em 0.25em 0em;
+    }
 /* *********  carousel arrows  ***********/
     .glyphicon {
         top: 155px;
@@ -233,6 +179,31 @@ body footer .bs-docs-footer-links li {
         background-color: #eaeff7; 
         padding-top: -50px;
         padding-bottom: 40px;
+        margin: 0px 0px 0px 0px;
+    }
+/* *********  content boxes  ***********/
+    .curved {
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        border-style: solid;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 1px solid #0F0E0E; 
+        margin-top: 8%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: #fff;
+    }
+    .curved_boxes {
+        min-height: 342px;
+/*        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+        padding-right: 15px;*/
+        padding: 0px 15px 0px 15px;
     }
 }
 /* ******************************************
@@ -266,6 +237,14 @@ and (max-width : 970px) {
     #content, .bs-docs-masthead {
         padding: 0px 0px;
     }
+    #content .container .lead {
+        margin-bottom: 20px;
+        font-weight: 200;
+        line-height: 1.4;
+    }
+    .container .bs-docs-masthead .lead {
+        margin: 0px auto 0.25em;
+    }
 /* *********  carousel arrows  ***********/
     .glyphicon {
         top: 175px;
@@ -294,6 +273,28 @@ and (max-width : 970px) {
         background-color: #eaeff7; 
         padding-top: 0px;
         padding-bottom: 40px;
+        margin: 0px 0px 0px 0px;
+    }
+/* *********  content boxes  ***********/
+    .curved {
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        border-style: solid;
+        /*border-color: #1769A8 #1769A8;*/ /* #AA4771;*/
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 1px solid #0F0E0E; /*#1769A8*/
+        margin-top: 8%;
+        margin-left: 8%;
+        margin-right: 3%;
+        background-color: #fff;
+    }
+    .curved_boxes {
+        min-height: 342px;
+        padding: 0px 15px 0px 15px;
     }
 }
 
@@ -329,6 +330,14 @@ and (max-width : 1170px) {
     #content, .bs-docs-masthead {
         padding: 0px 0px;
     }
+    #content .container .lead {
+        margin-bottom: 20px;
+        font-weight: 200;
+        line-height: 1.4;
+    }
+    .container .bs-docs-masthead .lead {
+        margin: 0px auto 0.25em;
+    }
 /* *********  carousel arrows  ***********/
     .glyphicon {
         top: 175px;
@@ -357,6 +366,28 @@ and (max-width : 1170px) {
         background-color: #eaeff7; 
         padding-top: 0px;
         padding-bottom: 40px;
+        margin: 0px 0px 0px 0px;
+    }
+/* *********  content boxes  ***********/
+    .curved {
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        border-style: solid;
+        /*border-color: #1769A8 #1769A8;*/ /* #AA4771;*/
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 1px solid #0F0E0E; /*#1769A8*/
+        margin-top: 8%;
+        margin-left: 8%;
+        margin-right: 3%;
+        background-color: #fff;
+    }
+    .curved_boxes {
+        min-height: 342px;
+        padding: 0px 15px 0px 15px;
     }
 }
 /* ******************************************
@@ -416,5 +447,35 @@ and (max-width : 1170px) {
         background-color: #eaeff7; 
         padding-top: 0px;
         padding-bottom: 40px;
+        margin: 0px 0px 0px 0px;
+    }
+    #content .container .lead {
+        margin-bottom: 20px;
+        font-weight: 200;
+        line-height: 1.4;
+    }
+    .container .bs-docs-masthead .lead {
+        margin: 0px auto 0.25em;
+    }
+/* *********  content boxes  ***********/
+    .curved {
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        border-style: solid;
+        /*border-color: #1769A8 #1769A8;*/ /* #AA4771;*/
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 1px solid #0F0E0E; /*#1769A8*/
+        margin-top: 8%;
+        margin-left: 8%;
+        margin-right: 3%;
+        background-color: #fff;
+    }
+    .curved_boxes {
+        min-height: 342px;
+        padding: 0px 15px 0px 15px;
     }
 }
